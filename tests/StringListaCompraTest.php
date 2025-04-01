@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 final class StringListaCompraTest extends TestCase
 {
     /**
-     * @test Añadir x1 cuando se añade un producto sin cantidad
+     * @test Añadir x1 cuando se añade un producto sin cantidad VERDE
      */
     public function devuelve_x1_al_añadir_sin_cantidad()
     {
