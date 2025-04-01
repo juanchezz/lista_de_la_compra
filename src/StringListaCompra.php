@@ -21,6 +21,10 @@ class StringListaCompra
                 array_keys($this->productos)
             ));
         }
+        if (str_starts_with(strtolower($string), 'vaciar')) {
+            $this->productos = [];
+            return '';
+        }
         return '';
     }
 }
