@@ -16,6 +16,14 @@ final class StringListaCompraTest extends TestCase
         $resultado = $lista->ejecutar("añadir pan");
         $this->assertEquals("pan x1", $resultado);
     }
-
-
+    /**
+     * @test Devuelve la lista vacia cuando el usuario quiere vaciarla y hay algo en la lista
+     */
+    public function devuelve_lista_vacia_tras_vaciar(): void
+    {
+        $lista = new StringListaCompra();
+        $lista->ejecutar("añadir pan");
+        $resultado = $lista->ejecutar("vaciar");
+        $this->assertEquals("", $resultado);
+    }
 }
