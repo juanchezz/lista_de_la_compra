@@ -1,1 +1,0 @@
-Texto de ejemplo para el primer commit.
