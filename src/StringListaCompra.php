@@ -2,7 +2,7 @@
 
 namespace Deg540\StringCalculatorPHP;
 
-class StringCalculator
+class StringListaCompra
 {
     // TODO: String Calculator Kata
 }
