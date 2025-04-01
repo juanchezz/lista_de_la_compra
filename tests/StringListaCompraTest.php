@@ -13,7 +13,7 @@ final class StringListaCompraTest extends TestCase
     public function devuelve_x1_al_añadir_sin_cantidad()
     {
         $lista = new StringListaCompra();
-        $resultado = $lista->ejecutar("pan");
+        $resultado = $lista->ejecutar("añadir pan");
         $this->assertEquals("pan x1", $resultado);
     }
 
